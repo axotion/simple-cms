@@ -1,0 +1,105 @@
+p#title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+p#content{
+    text-align: center;
+}
+p#date{
+    text-align: center;
+}
+p#nupage {
+    display: block;
+    margin-left: 50%;
+}
+
+a{
+    color: #ebf6ff;
+    text-decoration: none;
+}
+a:visited{
+
+}
+
+#menu-bar{
+text-align: center;
+    height: 30px;
+    padding-top: 15px;
+    background-color: #0b334f;
+    width: 97.5%;
+    border: solid 1px;
+}
+
+div#comments{
+    margin-left: 25%;
+    word-break: break-all;
+    text-align: center;
+    width: 50%;
+    border-style: solid;
+    height: 40%;
+    background-color: #0b334f;
+    border-radius: 25px;
+
+}
+
+a#post-more{
+
+}
+
+input[type=text]#login{
+
+    border-style: none;
+    display: block;
+    margin: 0 auto;;}
+
+input[type=password]#password{
+    display: block;
+    margin: 0 auto;   border-style: none;
+}
+
+input[type=submit]#l_button{
+    border-style: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img#captcha{
+    display: block;
+    margin: 0 auto;  border-style: none;
+}
+input[type=text]#captcha_text{
+    display: block;
+    margin: 0 auto;    border-style: none;
+}
+a#page-next{
+    margin-left: 10%;
+}
+a#page-prev{
+    left: 88%;
+    position:absolute;
+}
+
+div#line{
+    border-radius: 25px;
+
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 9%;
+    width: 80%;
+    word-break: break-all;
+    height: 100%;
+    background-color: #0b334f;
+
+    border-style: solid;
+}
+body{
+    background-image: url("background.jpg");
+    color: white;
+}
+
+li{
+    display: inline;
+}
